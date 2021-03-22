@@ -19,11 +19,11 @@ export class NavComponent {
     this.chatRoomName = params[params.length - 1];
     console.log("url: ", url);
 
-    if (url === "http://localhost:4200/discover") {
+    if (url === "https://traktalk.herokuapp.com/discover") {
       this.navLinks["discoverIsActive"] = "active";
       this.navLinks["homeIsActive"] = "";
       this.navLinks["chatIsActive"] = "";
-    } else if (url === "http://localhost:4200/") {
+    } else if (url === "https://traktalk.herokuapp.com/") {
       this.navLinks["homeIsActive"] = "active";
       this.navLinks["discoverIsActive"] = "";
       this.navLinks["chatIsActive"] = "";

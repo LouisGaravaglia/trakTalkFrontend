@@ -12,7 +12,7 @@ export class WebSocketService {
 
   public openWebsocket(chatRoomName: string) {
     this.chatRoomName = chatRoomName;
-    this.webSocket = new WebSocket('ws://trak-talk.herokuapp.com/chat/' + this.chatRoomName);
+    this.webSocket = new WebSocket('wss://trak-talk.herokuapp.com/chat/' + this.chatRoomName);
 
     this.webSocket.onopen = (event) => {
       console.log('Websocket Open: ', event);

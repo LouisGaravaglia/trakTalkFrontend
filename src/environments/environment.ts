@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  CHAT_URL: 'ws://trak-talk.herokuapp.com/'
+  CHAT_URL: 'wss://trak-talk.herokuapp.com/'
 };
 
 /*

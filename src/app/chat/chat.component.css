@@ -27,4 +27,5 @@ h6 {
     overflow-y: scroll;
     height: 400px;
     max-height: 100%;
+    border: 2px solid black;
 }
